@@ -16,11 +16,11 @@ public_host: hello
 sections:
   - repository:
       name: docs-content
-    directory: docs-altoros-cassandra
+    directory: altoros-cassandra
     subnav_template: altoros-cassandra_subnav.erb       
 
 template_variables:                             # optional
 
-book_title: Partner Services Template
+book_title: Altoros Cassandra for PCF
 book_repo: docs-book
 layout_repo: docs-layout
