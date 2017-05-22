@@ -3,18 +3,18 @@
   ".": 
 :production_host: hello
 :subnav_templates:
-  myservice: myservice_subnav
+  altoros-cassandra: altoros-cassandra_subnav
 :template_variables: 
-:local_repo_dir: "/Users/ljarzynski/workspace/docs-partners-template"
+:local_repo_dir: "/docs"
 :workspace: !ruby/object:Pathname
-  path: "/Users/ljarzynski/workspace/docs-partners-template/docs-book/output/master_middleman/source"
+  path: "/docs/docs-book/output/master_middleman/source"
 :feedback_enabled: 
 :repo_link_enabled: true
 :repo_links:
-  myservice:
+  altoros-cassandra:
     repo: docs-content
     ref: master
     at_path: 
 :product_info:
-  myservice: {}
+  altoros-cassandra: {}
 :elastic_search: false
