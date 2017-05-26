@@ -7,6 +7,11 @@ This topic describes how to install and configure Altoros Cassandra for PCF.
 
 ##<a id='install'></a> Install and Configure Altoros Cassandra for PCF
 
+To complete this procedure, you will need:
+
+* An Amazon S3 bucket for Apache Cassandra backups
+* AWS API credentials to read/write files to the Amazon S3 bucket
+
 1. Download the product file from [Pivotal Network](https://network.pivotal.io/).
 
 1. Navigate to the Ops Manager Installation Dashboard and click **Import a Product** to upload the product file.
@@ -23,7 +28,7 @@ This adds the tile to your staging area.
     <tr><th width="25%">Field</th><th>Instructions</th></tr>
     <tr><td><strong>AWS Access Key</strong></td>
         <td>Enter the access key for the Amazon S3 bucket for backups.<br> 
-            For more information, see <a href="./index.html#reqs">Requirements</a>.</td>
+            </td>
     </tr>
     <tr><td><strong>AWS Access Secret</strong></td>
         <td>Enter the secret access key for the Amazon S3 bucket.</td>
