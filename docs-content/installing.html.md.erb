@@ -17,8 +17,25 @@ This adds the tile to your staging area.
 1. Click the newly added **Altoros Cassandra for PCF** tile.
 
 1. From the **Settings** tab, click **Cassandra Snapshots Configuration**.
-Altoros Cassandra for PCF requires that you have already created a bucket on Amazon S3, and have API credentials that have access to this bucket. Also you should specify the region in which the bucket was created.
-   <%= image_tag("images/backup_settings.png") %>
+
+2. Configure the fields as follows:
+  <table>
+    <tr><th width="25%">Field</th><th>Instructions</th></tr>
+    <tr><td><strong>AWS Access Key</strong></td>
+        <td>Enter the access key for the Amazon S3 bucket for backups.<br> 
+            For more information, see <a href="./index.html#reqs">Requirements</a>.</td>
+    </tr>
+    <tr><td><strong>AWS Access Secret</strong></td>
+        <td>Enter the secret access key for the Amazon S3 bucket.</td>
+    </tr>
+    <tr><td><strong>Amazon S3 Bucket Name</strong></td>
+        <td>Enter the name of the Amazon S3 bucket.</td>
+    </tr>
+    <tr><td><strong>AWS S3 Region</strong></td>
+        <td> Select the region where the Amazon S3 bucket was created.</td></tr>
+  </table>
+
+    <%= image_tag("images/backup_settings.png") %>
 
 1. Click **Save**.
 
