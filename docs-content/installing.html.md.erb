@@ -48,4 +48,20 @@ This adds the tile to your staging area.
 
 1. Click **Save**.
 
+1. Configure **On-Demand Service Broker** settings:
+
+    Currently Cassandra On-Demand service broker supports only one service plan: **Single Node**.
+This service plan deploys **Altoros Cassandra for PCF** components on a single virtual machine.
+All settings for the **Single Node** service plan can be configured using the **On-Demand Service Settings** tab.
+
+    1. **AZs to deploy service instance node**: This is the AZ in which to deploy the Cassandra instances from the **Single Node** plan. This must be one of the AZs of the service network (configured in the Ops Manager Director tile).
+
+    2. **VM type of a service instance node**: Select a large VM type. The plan creates a service instance of this size.
+
+    3. **Persistent disk type of a service instance node**: Select a disk size.
+    <%= image_tag("images/single_plan_config.png") %>
+
+1. Click **Save**.
+
+
 1. Return to the Ops Manager Installation Dashboard and click **Apply Changes** to install Altoros Cassandra for PCF tile.
