@@ -5,9 +5,9 @@
 :subnav_templates:
   altoros-cassandra: altoros-cassandra_subnav
 :template_variables: 
-:local_repo_dir: "/Users/jacobknostman/workspace/docs-altoros-cassandra"
+:local_repo_dir: "/docs"
 :workspace: !ruby/object:Pathname
-  path: "/Users/jacobknostman/workspace/docs-altoros-cassandra/docs-book/output/master_middleman/source"
+  path: "/docs/docs-book/output/master_middleman/source"
 :feedback_enabled: 
 :repo_link_enabled: true
 :repo_links:
