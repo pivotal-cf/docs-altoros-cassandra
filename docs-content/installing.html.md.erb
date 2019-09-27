@@ -1,9 +1,9 @@
 ---
-title: Installing and Configuring Altoros Cassandra for PCF
+title: Installing and Configuring Altoros Cassandra for Pivotal Platform
 owner: Partners
 ---
 
-This topic describes how to install and configure Altoros Cassandra for PCF.
+This topic describes how to install and configure Altoros Cassandra for Pivotal Platform.
 
 ##<a id='prereq'></a> Prerequisites
 
@@ -12,18 +12,18 @@ To complete this procedure, you need:
 * An Amazon S3 bucket for Apache Cassandra backups
 * AWS API credentials to read/write files to the Amazon S3 bucket
 
-##<a id='install'></a> Install and Configure Altoros Cassandra for PCF
+##<a id='install'></a> Install and Configure Altoros Cassandra for Pivotal Platform
 
-Complete the following steps to download, install, and configure the Altoros Cassandra for PCF tile.
+Complete the following steps to download, install, and configure the Altoros Cassandra for Pivotal Platform tile.
 
 1. Download the product file from [Pivotal Network](https://network.pivotal.io/products/altoros-cassandra).
 
 1. Navigate to the Ops Manager Installation Dashboard and click **Import a Product** to upload the product file.
 
-1. Under the **Import a Product** button, click **+** next to the version number of Altoros Cassandra for PCF.
+1. Under the **Import a Product** button, click **+** next to the version number of Altoros Cassandra for Pivotal Platform.
 This adds the tile to your staging area.
 
-1. Click the newly added **Altoros Cassandra for PCF** tile.
+1. Click the newly added **Altoros Cassandra for Pivotal Platform** tile.
 
 1. From the **Settings** tab, click **Cassandra Snapshots Configuration**.
 
@@ -50,7 +50,7 @@ This adds the tile to your staging area.
 
 1. Configure On-Demand Service Broker settings:
 Currently, Cassandra On-Demand Service Broker supports only the Single Node service plan.
-This service plan deploys Altoros Cassandra for PCF components on a single virtual machine.
+This service plan deploys Altoros Cassandra for Pivotal Platform components on a single virtual machine.
 All settings for the Single Node service plan can be configured using the On-Demand Service Settings tab.
 
     1. **AZs to deploy service instance node**: This is the AZ in which to deploy the Cassandra instances from the Single Node plan. This must be one of the AZs of the service network (configured in the BOSH Director tile).
@@ -62,4 +62,4 @@ All settings for the Single Node service plan can be configured using the On-Dem
 
 1. Click **Save**.
 
-1. Return to the Ops Manager Installation Dashboard and click **Apply Changes** to install the Altoros Cassandra for PCF tile.
+1. Return to the Ops Manager Installation Dashboard and click **Apply Changes** to install the Altoros Cassandra for Pivotal Platform tile.
