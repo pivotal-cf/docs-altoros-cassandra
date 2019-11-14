@@ -31,7 +31,7 @@ This adds the tile to your staging area.
   <table>
     <tr><th width="25%">Field</th><th>Instructions</th></tr>
     <tr><td><strong>AWS Access Key</strong></td>
-        <td>Enter the access key for the Amazon S3 bucket for backups.<br> 
+        <td>Enter the access key for the Amazon S3 bucket for backups.<br>
             </td>
     </tr>
     <tr><td><strong>AWS Access Secret</strong></td>
@@ -45,20 +45,6 @@ This adds the tile to your staging area.
   </table>
 
     <%= image_tag("images/backup_settings.png") %>
-
-1. Click **Save**.
-
-1. Configure On-Demand Service Broker settings:
-Currently, Cassandra On-Demand Service Broker supports only the Single Node service plan.
-This service plan deploys Altoros Cassandra for Pivotal Platform components on a single virtual machine.
-All settings for the Single Node service plan can be configured using the On-Demand Service Settings tab.
-
-    1. **AZs to deploy service instance node**: This is the AZ in which to deploy the Cassandra instances from the Single Node plan. This must be one of the AZs of the service network (configured in the BOSH Director tile).
-
-    2. **VM type of a service instance node**: Select a large VM type. The plan creates a service instance of this size.
-
-    3. **Persistent disk type of a service instance node**: Select a disk size.
-    <%= image_tag("images/single_plan_config.png") %>
 
 1. Click **Save**.
 
